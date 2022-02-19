@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: blueviolet;
+  margin: 100px auto;
+  width: 90%;
+  box-shadow: 1px 1px 4px 1px lightgrey;
+}
+
+.container form{
+  width: 100%;
+  padding: 10px;
+}
+
+.container label{
+  display: block;
+  letter-spacing: 0.1rem;
+  font-style: italic;
+  margin-bottom: 3px;
+}
+
+.container input,
+.container textarea{
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  box-shadow: 1px 1px 4px 1px rgb(75, 75, 75);
+}
+
+.container input:focus,
+.container textarea{
+  box-shadow: 1px 1px 4px 1px rgb(49, 170, 240);
+}
+
+.singleItem{
+  margin:10px 0;
+}
+
+.btn{
+  width: 100%;
+  text-align: center;
+}
+
+.btn button{
+  width: 100%;
+  font-size: 18px;
+  letter-spacing: 0.2rem;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  margin-top: 5px;
+}
+
+.btn button:hover{
+  border: 1px solid #fefefe;
+  background-color: blanchedalmond;
+  cursor: pointer;
+}
+
+.msg{
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  letter-spacing: 0.2rem;
+  font-style: italic;
+  width: 340px;
+  padding: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #37ff25;
+  background-color: #fff;
+  border-radius: 5px;
+  display: none;
+}
+
+.msgAppear{
+  display: block;
+}
