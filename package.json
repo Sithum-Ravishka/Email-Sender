@@ -1,0 +1,22 @@
+{
+  "name": "email-send-project",
+  "version": "1.0.0",
+  "description": "form",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server":"nodemon index.js",
+    "client":"npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "sithum",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15"
+  }
+}
