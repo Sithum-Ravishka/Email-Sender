@@ -9,7 +9,7 @@ body{
     background-color: rgba(32, 32, 32, 0.884);
     margin: 100px auto;
     width: 500px;
-    height: 460px;
+    height: 480px;
     box-shadow: 1px 1px 4px 1px rgb(85, 85, 85);
     padding: 20px;
     .header{
@@ -43,6 +43,7 @@ body{
     padding: 10px;
     border: none;
     box-shadow: 1px 1px 4px 1px rgb(75, 75, 75);
+    resize: none;
   }
   
   .singleItem{
@@ -86,7 +87,7 @@ body{
     padding: 3px;
     font-size: 16px;
     font-weight: bold;
-    color: #37ff25;
+    color: #ff1f1f;
     background-color: #fff;
     border-radius: 5px;
     display: none;
