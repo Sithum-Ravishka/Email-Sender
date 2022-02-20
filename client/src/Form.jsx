@@ -83,6 +83,7 @@ resetForm=()=>{
     render(){
       return(
           <div className='container'>
+              <span className='header'>CONTACT US</span>
               <form onSubmit={this.formSubmit}>
                 {/* single Item */}
                 <div className='singleItem'>

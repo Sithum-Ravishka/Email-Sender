@@ -2,14 +2,23 @@ body{
     background-size: cover;
     background-image: url(https://gobiva.com/wp-content/uploads/2014/06/about-us-background-3.jpg);
   }
+
+
   
   .container{
-    background-color: rgba(63, 63, 63, 0.76);
+    background-color: rgba(32, 32, 32, 0.884);
     margin: 100px auto;
     width: 500px;
     height: 460px;
     box-shadow: 1px 1px 4px 1px rgb(85, 85, 85);
     padding: 20px;
+    .header{
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: 15px;
+      color: white;
+      margin-left: 85px;
+    }
   }
   
   .container form{
@@ -23,6 +32,7 @@ body{
     font-weight: bold;
     margin-bottom: 5px;
     margin-top: 10px;
+    color: white;
   }
   
   .container input,
