@@ -94,6 +94,7 @@ resetForm=()=>{
                     placeholder='Enter Your First Name...'
                     value={this.state.name}
                     onChange={this.handleName}
+                    required
                     />
                 </div>
                 {/* end of single Item */}
@@ -105,17 +106,20 @@ resetForm=()=>{
                     className='lastname' 
                     placeholder='Enter Your Last Name...' 
                     value={this.state.lastname}
-                    onChange={this.handleLastname}/>
+                    onChange={this.handleLastname}
+                    required
+                    />
                 </div>
                 {/* end of single Item */}
 
                 {/* single Item */}
                 <div className='singleItem'>
                     <label htmlFor='email'>Email:</label>
-                    <input type='text' name='email' 
+                    <input type='email' name='email' 
                     className='email' placeholder='Enter Your Email...'
                     value={this.state.email}
                     onChange={this.handleEmail}
+                    required
                     />
                 </div>
                 {/* end of single Item */}
@@ -125,7 +129,8 @@ resetForm=()=>{
                     <label htmlFor='message'>Message:</label>
                     <textarea name='message' id='' cols='30' rows='5' placeholder='Enter Your Message...'
                     value={this.state.message}
-                    onChange={this.handleMessage }
+                    onChange={this.handleMessage}
+                    required
                     />
                 </div>
                 {/* end of single Item */}
