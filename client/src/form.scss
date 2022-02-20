@@ -1,0 +1,87 @@
+body{
+    background-size: cover;
+    background-image: url(https://gobiva.com/wp-content/uploads/2014/06/about-us-background-3.jpg);
+  }
+  
+  .container{
+    background-color: rgba(63, 63, 63, 0.76);
+    margin: 100px auto;
+    width: 500px;
+    height: 460px;
+    box-shadow: 1px 1px 4px 1px rgb(85, 85, 85);
+    padding: 20px;
+  }
+  
+  .container form{
+    width: 455px;
+    padding: 10px;
+  }
+  
+  .container label{
+    display: block;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  
+  .container input,
+  .container textarea{
+    width: 100%;
+    margin: 0 auto;
+    letter-spacing: 0.2rem;
+    padding: 10px;
+    border: none;
+    box-shadow: 1px 1px 4px 1px rgb(75, 75, 75);
+  }
+  
+  .singleItem{
+    margin:10px 0;
+  }
+  
+  .btn{
+    width: 100%;
+    text-align: center;
+  }
+  
+  .btn button{
+    width: 110px;
+    font-size: 18px;
+    letter-spacing: 0.2rem;
+    padding: 8px;
+    border: 1px solid transparent;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    margin-top: 15px;
+    background-color: #ff4b4b;
+    color: white;
+    box-shadow: 1px 1px 4px 1px rgb(75, 75, 75);
+  }
+  
+  .btn button:hover{
+    border: 1px solid #fefefe;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+  }
+  
+  .msg{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    letter-spacing: 0.2rem;
+    font-style: italic;
+    width: 340px;
+    padding: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #37ff25;
+    background-color: #fff;
+    border-radius: 5px;
+    display: none;
+  }
+  
+  .msgAppear{
+    display: block;
+  }

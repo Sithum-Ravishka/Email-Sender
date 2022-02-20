@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 import axios from 'axios';
 
+import './form.scss'
+
 export default class Form extends Component {
 
 state={
@@ -84,11 +86,11 @@ resetForm=()=>{
               <form onSubmit={this.formSubmit}>
                 {/* single Item */}
                 <div className='singleItem'>
-                    <label htmlFor='name'>Name</label>
+                    <label htmlFor='name'>First Name:</label>
                     <input type='text' 
                     name='name' 
                     className='name' 
-                    placeholder='your Name...'
+                    placeholder='Enter Your First Name...'
                     value={this.state.name}
                     onChange={this.handleName}
                     />
@@ -97,10 +99,10 @@ resetForm=()=>{
 
                 {/* single Item */}
                 <div className='singleItem'>
-                    <label htmlFor='name'>Lastname</label>
+                    <label htmlFor='name'>Last Name:</label>
                     <input type='text' name='lastname' 
                     className='lastname' 
-                    placeholder='your Lastname...' 
+                    placeholder='Enter Your Last Name...' 
                     value={this.state.lastname}
                     onChange={this.handleLastname}/>
                 </div>
@@ -108,9 +110,9 @@ resetForm=()=>{
 
                 {/* single Item */}
                 <div className='singleItem'>
-                    <label htmlFor='email'>Email</label>
+                    <label htmlFor='email'>Email:</label>
                     <input type='text' name='email' 
-                    className='email' placeholder='your Email...'
+                    className='email' placeholder='Enter Your Email...'
                     value={this.state.email}
                     onChange={this.handleEmail}
                     />
@@ -119,8 +121,8 @@ resetForm=()=>{
 
                 {/* single Item */}
                 <div className='textArea'>
-                    <label htmlFor='message'>Message</label>
-                    <textarea name='message' id='' cols='30' rows='5' placeholder='your message'
+                    <label htmlFor='message'>Message:</label>
+                    <textarea name='message' id='' cols='30' rows='5' placeholder='Enter Your Message...'
                     value={this.state.message}
                     onChange={this.handleMessage }
                     />
